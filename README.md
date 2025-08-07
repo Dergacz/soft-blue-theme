@@ -48,7 +48,14 @@ F5 (or Run > Start Debugging)
 
 ## 📸 Screenshots
 
-_Add screenshots of your theme here_
+### Dark Theme
+![Dark Theme Screenshot](https://raw.githubusercontent.com/stabislau-dziarhach/soft-blue-theme/main/images/dark-theme.png)
+
+### Light Theme  
+![Light Theme Screenshot](https://raw.githubusercontent.com/stabislau-dziarhach/soft-blue-theme/main/images/light-theme.png)
+
+### Syntax Highlighting Examples
+![Syntax Highlighting](https://raw.githubusercontent.com/stabislau-dziarhach/soft-blue-theme/main/images/syntax-highlighting.png)
 
 ## 🤝 Contributing
 
