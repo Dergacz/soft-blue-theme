@@ -1,8 +1,8 @@
 # Soft Blue Theme
 
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/stabislau-dziarhach.soft-blue-theme)
-![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/stabislau-dziarhach.soft-blue-theme)
-![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/stabislau-dziarhach.soft-blue-theme)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/StanislauDziarhach.soft-blue-theme)
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/StanislauDziarhach.soft-blue-theme)
+![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/StanislauDziarhach.soft-blue-theme)
 
 A beautiful and calm theme for Visual Studio Code with gentle teal and blue colors, designed for comfortable coding. Available in both light and dark versions.
 
