@@ -12,13 +12,13 @@
 
 ### 1. Create Publisher
 ```bash
-vsce create-publisher stabislau-dziarhach
+vsce create-publisher StanislauDziarhach
 ```
 Enter your PAT when prompted.
 
 ### 2. Login
 ```bash
-vsce login stabislau-dziarhach
+vsce login StanislauDziarhach
 ```
 
 ### 3. Publish
@@ -33,7 +33,7 @@ vsce publish
    vsce package
    ```
 
-2. Go to https://marketplace.visualstudio.com/manage/publishers/stabislau-dziarhach
+2. Go to https://marketplace.visualstudio.com/manage/publishers/StanislauDziarhach
 
 3. Upload the `soft-blue-theme-1.0.0.vsix` file
 
@@ -44,7 +44,7 @@ vsce publish
 - ✅ Screenshots added (dark-screen.png, light-screen.png)
 - ✅ CHANGELOG created
 - ✅ License included (MIT)
-- ✅ Publisher name set: `stabislau-dziarhach`
+- ✅ Publisher name set: `StanislauDziarhach`
 - ✅ Keywords optimized for search
 - ✅ Description improved
 - ✅ Repository links updated
@@ -53,7 +53,7 @@ vsce publish
 ## Post-Publication
 
 After publishing, your theme will be available at:
-https://marketplace.visualstudio.com/items?itemName=stabislau-dziarhach.soft-blue-theme
+https://marketplace.visualstudio.com/items?itemName=StanislauDziarhach.soft-blue-theme
 
 ## Screenshots Added ✅
 
