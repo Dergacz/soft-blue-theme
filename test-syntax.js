@@ -1,23 +1,23 @@
-// 🎨 Тестовый файл для демонстрации темы Soft Blue Theme
+// 🎨 Test file for demonstrating Soft Blue Theme
 
 /**
- * Функция для демонстрации подсветки синтаксиса
- * @param {string} name - имя пользователя
- * @param {number} age - возраст пользователя
+ * Function to demonstrate syntax highlighting
+ * @param {string} name - user name
+ * @param {number} age - user age
  */
 function greetUser(name, age) {
-    const greeting = `Привет, ${name}! Тебе ${age} лет.`;
+    const greeting = `Hello, ${name}! You are ${age} years old.`;
     console.log(greeting);
     
-    // Условие для проверки возраста
+    // Age verification condition
     if (age >= 18) {
-        return "Вы совершеннолетний";
+        return "You are an adult";
     } else {
-        return "Вы несовершеннолетний";
+        return "You are a minor";
     }
 }
 
-// Класс для демонстрации
+// Class for demonstration
 class User {
     constructor(name, email) {
         this.name = name;
@@ -25,7 +25,7 @@ class User {
         this.isActive = true;
     }
     
-    // Метод для получения информации
+    // Method to get information
     getInfo() {
         return {
             name: this.name,
@@ -34,61 +34,61 @@ class User {
         };
     }
     
-    // Статический метод
+    // Static method
     static validateEmail(email) {
         const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return regex.test(email);
     }
 }
 
-// Примеры использования
-const user1 = new User("Анна", "anna@example.com");
-const user2 = new User("Максим", "maxim@test.ru");
+// Usage examples
+const user1 = new User("Anna", "anna@example.com");
+const user2 = new User("Max", "max@test.com");
 
-// Массив пользователей
+// Array of users
 const users = [user1, user2];
 
-// Использование стрелочных функций и методов массива
+// Using arrow functions and array methods
 const activeUsers = users
     .filter(user => user.isActive)
     .map(user => user.getInfo())
     .sort((a, b) => a.name.localeCompare(b.name));
 
-console.log("Активные пользователи:", activeUsers);
+console.log("Active users:", activeUsers);
 
-// Асинхронная функция
+// Async function
 async function fetchUserData(userId) {
     try {
         const response = await fetch(`/api/users/${userId}`);
         const userData = await response.json();
         return userData;
     } catch (error) {
-        console.error("Ошибка при получении данных:", error);
-        throw new Error("Не удалось загрузить данные пользователя");
+        console.error("Error fetching data:", error);
+        throw new Error("Failed to load user data");
     }
 }
 
-// Деструктуризация и spread оператор
+// Destructuring and spread operator
 const { name, email } = user1.getInfo();
 const newUser = { ...user1.getInfo(), lastLogin: new Date() };
 
-// Числа и строки
+// Numbers and strings
 const numbers = [1, 2, 3, 4, 5];
 const sum = numbers.reduce((acc, num) => acc + num, 0);
 const average = sum / numbers.length;
 
-console.log(`Сумма: ${sum}, Среднее: ${average.toFixed(2)}`);
+console.log(`Sum: ${sum}, Average: ${average.toFixed(2)}`);
 
-// RegExp и специальные символы
-const phoneRegex = /^\+7\(\d{3}\)\d{3}-\d{2}-\d{2}$/;
-const testPhone = "+7(999)123-45-67";
+// RegExp and special symbols
+const phoneRegex = /^\+1\(\d{3}\)\d{3}-\d{4}$/;
+const testPhone = "+1(555)123-4567";
 
 if (phoneRegex.test(testPhone)) {
-    console.log("✅ Номер телефона корректен");
+    console.log("✅ Phone number is valid");
 } else {
-    console.log("❌ Неверный формат номера");
+    console.log("❌ Invalid phone number format");
 }
 
-// Экспорт модуля
+// Module export
 export { User, greetUser, fetchUserData };
 export default User;
