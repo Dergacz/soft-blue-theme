@@ -40,23 +40,25 @@ vsce publish
 ## Important Notes
 
 - ✅ Icon added (icon.png)
-- ✅ README updated with screenshots placeholders
+- ✅ README updated with screenshots
+- ✅ Screenshots added (dark-screen.png, light-screen.png)
 - ✅ CHANGELOG created
 - ✅ License included (MIT)
 - ✅ Publisher name set: `stabislau-dziarhach`
 - ✅ Keywords optimized for search
 - ✅ Description improved
+- ✅ Repository links updated
+- ✅ Test file translated to English
 
 ## Post-Publication
 
 After publishing, your theme will be available at:
 https://marketplace.visualstudio.com/items?itemName=stabislau-dziarhach.soft-blue-theme
 
-## Required Screenshots
+## Screenshots Added ✅
 
-Before publishing, add these screenshots to the `images/` folder:
-1. `dark-theme.png` - Dark theme in action
-2. `light-theme.png` - Light theme in action  
-3. `syntax-highlighting.png` - Code examples showing syntax highlighting
+Screenshots have been successfully added to the `images/` folder:
+1. ✅ `dark-screen.png` - Dark theme in action (195 KB)
+2. ✅ `light-screen.png` - Light theme in action (192 KB)
 
-Then commit to GitHub for the README images to work.
+The package is now ready for publication with all screenshots included!
