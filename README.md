@@ -6,7 +6,13 @@
 
 A beautiful and calm theme for Visual Studio Code with gentle teal and blue colors, designed for comfortable coding. Available in both light and dark versions.
 
-![Theme Preview](https://raw.githubusercontent.com/Dergacz/soft-blue-theme/main/preview.png)
+## 📸 Screenshots
+
+### Dark Theme
+![Dark Theme Screenshot](./images/dark-screen.png)
+
+### Light Theme  
+![Light Theme Screenshot](./images/light-screen.png)
 
 ## ✨ Features
 
@@ -49,10 +55,10 @@ F5 (or Run > Start Debugging)
 ## 📸 Screenshots
 
 ### Dark Theme
-![Dark Theme Screenshot](https://raw.githubusercontent.com/Dergacz/soft-blue-theme/main/images/dark-screen.png)
+![Dark Theme Screenshot](./images/dark-screen.png)
 
 ### Light Theme  
-![Light Theme Screenshot](https://raw.githubusercontent.com/Dergacz/soft-blue-theme/main/images/light-screen.png)
+![Light Theme Screenshot](./images/light-screen.png)
 
 ## 🤝 Contributing
 
@@ -64,7 +70,7 @@ This project is distributed under the MIT License.
 
 ## 👨‍💻 Author
 
-**Stabislau Dziarhach** - creator of Soft Blue Theme
+**Stanislau Dziarhach** - creator of Soft Blue Theme
 
 ---
 
