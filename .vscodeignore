@@ -8,6 +8,7 @@ test/**
 test-syntax.js
 vsc-extension-quickstart.md
 USAGE.md
+PUBLISHING.md
 node_modules/**
 *.vsix
 .idea/**
