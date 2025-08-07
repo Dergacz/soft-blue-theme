@@ -1,0 +1,13 @@
+.vscode/**
+.vscode-test/**
+test/**
+**/*.map
+.gitignore
+.github/**
+.copilot-instructions.md
+test-syntax.js
+vsc-extension-quickstart.md
+USAGE.md
+node_modules/**
+*.vsix
+.idea/**
