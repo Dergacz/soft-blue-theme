@@ -2,6 +2,24 @@
 
 All notable changes to the "Soft Blue Theme" extension will be documented in this file.
 
+## [1.0.2] - 2025-08-08
+
+### Changed
+- Mathematical operators (=, +, -, etc.) now appear in white for better visibility
+- Variables changed to gentle blue color (#B3D9FF in dark theme, #1E5A8A in light theme)
+- Added distinction between enum names and enum values
+- Enum names use teal color, enum values use yellow color
+
+### Improved
+- Better syntax highlighting for mathematical expressions
+- Enhanced readability of variable declarations
+- Clearer enum structure visualization
+
+## [1.0.1] - 2025-08-07
+
+### Fixed
+- Updated image links in README for proper display
+
 ## [1.0.0] - 2025-08-07
 
 ### Added
