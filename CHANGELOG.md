@@ -2,6 +2,27 @@
 
 All notable changes to the "Soft Blue Theme" extension will be documented in this file.
 
+## [1.0.5] - 2025-08-08
+
+### Color Palette Enhancement
+- **Purple Accents**: Added soft purple tones to enhance visual variety
+  - Keywords now use gentle purple (#B19CD9 in dark, #8B5A96 in light)
+  - Classes and Types display in soft lavender (#C8A8E9 in dark, #9B4F96 in light)
+  - Decorators feature subtle purple (#D4A5E8 in dark, #8E5A9E in light)
+- Maintained soft, calming aesthetic while adding visual interest
+- Purple tones complement existing blue/teal palette perfectly
+
+### Light Theme Background Adjustment
+- **Reduced Eye Strain**: Changed editor background from bright white (#F8FBFF) to softer blue-tinted white (#F0F6FB)
+- **Consistent UI**: Updated tab and terminal backgrounds to match new editor tone
+- Better comfort for extended coding sessions while maintaining readability
+
+### File Structure Improvements
+- **Theme Files Renamed**: 
+  - `soft-blue-dark-theme.json` → `soft-blue-dark.json`
+  - `soft-theme-color-theme.json` → `soft-blue-light.json`
+- Cleaner, more consistent file naming convention
+
 ## [1.0.4] - 2025-08-08
 
 ### Theme Names Update

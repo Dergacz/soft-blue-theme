@@ -126,7 +126,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#5DADE2"
+				"foreground": "#B19CD9"
 			}
 		},
 		{
@@ -279,7 +279,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#85C1E9",
+				"foreground": "#C8A8E9",
 				"fontStyle": "italic"
 			}
 		},
@@ -490,7 +490,7 @@
 				"punctuation.decorator"
 			],
 			"settings": {
-				"foreground": "#FFEDA1",
+				"foreground": "#D4A5E8",
 				"fontStyle": "italic"
 			}
 		},

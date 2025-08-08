@@ -2,11 +2,9 @@
 	"name": "Soft Blue Light",
 	"type": "light",
 	"colors": {
-		// Основные цвета редактора - нежно-голубой фон
-		"editor.background": "#F8FBFF",
+		"editor.background": "#F0F6FB",
 		"editor.foreground": "#2C3E50",
 		
-		// Боковая панель
 		"sideBar.background": "#EEFAFF",
 		"sideBar.foreground": "#34495E",
 		"sideBar.border": "#E0F2FF",
@@ -14,7 +12,6 @@
 		"sideBarSectionHeader.background": "#DCE8F5",
 		"sideBarSectionHeader.foreground": "#2471A3",
 		
-		// Панель активности
 		"activityBar.background": "#E0F2FF",
 		"activityBar.foreground": "#2980B9",
 		"activityBar.inactiveForeground": "#7FB3D3",
@@ -22,40 +19,34 @@
 		"activityBarBadge.foreground": "#FFFFFF",
 		"activityBar.border": "#C7DDF0",
 		
-		// Строка состояния
 		"statusBar.background": "#85C1E9",
 		"statusBar.foreground": "#1B4F72",
 		"statusBar.noFolderBackground": "#AED6F1",
 		"statusBar.debuggingBackground": "#5DADE2",
 		
-		// Вкладки
-		"tab.activeBackground": "#F8FBFF",
+		"tab.activeBackground": "#F0F6FB",
 		"tab.activeForeground": "#2C3E50",
 		"tab.inactiveBackground": "#E8F4F8",
 		"tab.inactiveForeground": "#5D6D7E",
 		"tab.border": "#00000000",
 		"tab.activeBorder": "#00000000",
 		
-		// Титульная строка
 		"titleBar.activeBackground": "#AED6F1",
 		"titleBar.activeForeground": "#1B4F72",
 		"titleBar.inactiveBackground": "#D5DBDB",
 		"titleBar.inactiveForeground": "#85929E",
 		
-		// Панель команд
 		"quickInput.background": "#FAFBFC",
 		"quickInput.foreground": "#2C3E50",
 		"pickerGroup.foreground": "#2980B9",
 		"pickerGroup.border": "#D6E9FF",
 		
-		// Терминал
-		"terminal.background": "#F8FBFE",
+		"terminal.background": "#F0F6FB",
 		"terminal.foreground": "#2C3E50",
 		"terminal.ansiBlue": "#3498DB",
 		"terminal.ansiCyan": "#17A2B8",
 		"terminal.ansiGreen": "#20B2AA",
 		
-		// Выделение и курсор
 		"editor.selectionBackground": "#D6E9FF99",
 		"editor.selectionHighlightBackground": "#E8F4F899",
 		"editor.findMatchBackground": "#17A2B899",
@@ -63,13 +54,11 @@
 		"editorCursor.foreground": "#2980B9",
 		"editor.lineHighlightBackground": "#F8FBFE",
 		
-		// Номера строк и отступы
 		"editorLineNumber.foreground": "#85929E",
 		"editorLineNumber.activeForeground": "#2980B9",
 		"editorIndentGuide.background1": "#E8F4F8",
 		"editorIndentGuide.activeBackground1": "#D6E9FF",
 		
-		// Элементы интерфейса
 		"button.background": "#3498DB",
 		"button.foreground": "#FFFFFF",
 		"button.hoverBackground": "#2980B9",
@@ -80,18 +69,15 @@
 		"dropdown.foreground": "#2C3E50",
 		"dropdown.border": "#D6E9FF",
 		
-		// Панель уведомлений
 		"notifications.background": "#FAFBFC",
 		"notifications.foreground": "#2C3E50",
 		"notifications.border": "#D6E9FF",
 		
-		// Прокрутка
 		"scrollbar.shadow": "#E8F4F8",
 		"scrollbarSlider.background": "#D6E9FF99",
 		"scrollbarSlider.hoverBackground": "#AED6F199",
 		"scrollbarSlider.activeBackground": "#85C1E999",
 		
-		// Панель отладки
 		"debugToolBar.background": "#F0F8FF",
 		"debugConsole.infoForeground": "#2980B9",
 		"debugConsole.warningForeground": "#E67E22",
@@ -127,7 +113,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#3498DB"
+				"foreground": "#8B5A96"
 			}
 		},
 		{
@@ -344,7 +330,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#5DADE2",
+				"foreground": "#9B4F96",
 				"fontStyle": "italic"
 			}
 		},
@@ -473,7 +459,7 @@
 				"punctuation.decorator"
 			],
 			"settings": {
-				"foreground": "#CD853F",
+				"foreground": "#8E5A9E",
 				"fontStyle": "italic"
 			}
 		},
