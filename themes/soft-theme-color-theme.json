@@ -1,5 +1,5 @@
 {
-	"name": "Soft Blue Theme",
+	"name": "Soft Blue Light",
 	"type": "light",
 	"colors": {
 		// Основные цвета редактора - нежно-голубой фон
@@ -106,7 +106,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#7FB3D3"
+				"foreground": "#5B8FB9"
 			}
 		},
 		{
@@ -234,7 +234,7 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#B3D9FF"
+				"foreground": "#1F5582"
 			}
 		},
 		{
@@ -265,7 +265,7 @@
 				"keyword.operator.comparison"
 			],
 			"settings": {
-				"foreground": "#E67E22"
+				"foreground": "#B7472A"
 			}
 		},
 		{

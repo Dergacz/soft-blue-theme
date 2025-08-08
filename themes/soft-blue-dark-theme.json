@@ -1,5 +1,5 @@
 {
-	"name": "Soft Blue Dark Theme",
+	"name": "Soft Blue Dark",
 	"type": "dark",
 	"colors": {
 		"editor.background": "#242B3D",
@@ -210,7 +210,7 @@
 				"variable.language.self"
 			],
 			"settings": {
-				"foreground": "#D6A8D1",
+				"foreground": "#9DC4E0",
 				"fontStyle": "italic"
 			}
 		},
@@ -229,10 +229,11 @@
 			"name": "Object Properties",
 			"scope": [
 				"variable.other.property",
-				"variable.other.object.property"
+				"variable.other.object.property",
+				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#B8D4E3"
+				"foreground": "#98D8C8"
 			}
 		},
 		{
@@ -410,7 +411,7 @@
 				"keyword.operator.comparison"
 			],
 			"settings": {
-				"foreground": "#C7A6B5"
+				"foreground": "#7FB3B3"
 			}
 		},
 		{
@@ -421,7 +422,7 @@
 				"keyword.control.loop"
 			],
 			"settings": {
-				"foreground": "#D6A8D1"
+				"foreground": "#8FC4C4"
 			}
 		},
 		{
@@ -453,18 +454,18 @@
 				"variable.other.constant.property"
 			],
 			"settings": {
-				"foreground": "#D6A3C7"
+				"foreground": "#A3D4C7"
 			}
 		},
 		{
-			"name": "Enum Access - Object Part",
+			"name": "Object Variables and Access",
 			"scope": [
 				"variable.other.object",
 				"variable.other.readwrite",
-				"meta.object-literal.key"
+				"support.variable"
 			],
 			"settings": {
-				"foreground": "#85C1E9"
+				"foreground": "#B8D5E1"
 			}
 		},
 		{
@@ -510,7 +511,7 @@
 				"variable.language.special.self.python"
 			],
 			"settings": {
-				"foreground": "#D6A8D1",
+				"foreground": "#87C5C5",
 				"fontStyle": "italic"
 			}
 		},
