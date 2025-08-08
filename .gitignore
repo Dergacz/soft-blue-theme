@@ -30,3 +30,11 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Test files
+test-*.js
+test-*.ts
+test-*.py
+test-syntax.*
+test-enum.*
+test-italics.*
