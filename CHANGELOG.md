@@ -2,6 +2,36 @@
 
 All notable changes to the "Soft Blue Theme" extension will be documented in this file.
 
+## [1.0.4] - 2025-08-08
+
+### Theme Names Update
+- **Dark Theme**: Renamed from "Soft Blue Dark Theme" to "Soft Blue Dark"
+- **Light Theme**: Renamed from "Soft Blue Theme" to "Soft Blue Light"
+- Consistent naming convention for better theme selection experience
+
+### Color Palette Refinements
+- **Dark Theme**: Reduced pink/purple tones in favor of soft blue and mint colors
+- **Light Theme**: Improved contrast and readability for better accessibility
+- Object properties now have enhanced contrast on light backgrounds
+- Comments made more readable while maintaining soft aesthetic
+
+### Improved Readability
+- **Light Theme**: Object properties color changed from light blue (#B3D9FF) to dark blue (#1F5582)
+- **Light Theme**: Comments improved from (#7FB3D3) to (#5B8FB9) for better visibility
+- **Light Theme**: Operators updated for better contrast while staying soft
+- **Dark Theme**: Language variables, operators, and control flow now use mint/teal colors instead of pink
+
+### Visual Consistency
+- Both themes now share consistent color philosophy
+- Removed harsh/bright colors across both variants
+- Enhanced object vs property distinction in both themes
+- Maintained soft, calming color palette while improving functionality
+
+### Sponsorship Support
+- Added GitHub Sponsors integration
+- Added funding configuration for extension support
+- Multiple sponsorship platform support (GitHub, Ko-fi, Buy Me a Coffee)
+
 ## [1.0.3] - 2025-08-08
 
 ### Enhanced Italic Typography
