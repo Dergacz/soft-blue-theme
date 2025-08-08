@@ -116,7 +116,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#2C3E50"
+				"foreground": "#1E5A8A"
 			}
 		},
 		{
@@ -148,6 +148,22 @@
 			],
 			"settings": {
 				"foreground": "#5DADE2"
+			}
+		},
+		{
+			"name": "Mathematical Operators",
+			"scope": [
+				"keyword.operator",
+				"keyword.operator.arithmetic",
+				"keyword.operator.assignment",
+				"keyword.operator.comparison",
+				"keyword.operator.logical",
+				"punctuation.separator.operator",
+				"keyword.operator.increment",
+				"keyword.operator.decrement"
+			],
+			"settings": {
+				"foreground": "#2C3E50"
 			}
 		},
 		{
@@ -408,6 +424,26 @@
 			"settings": {
 				"foreground": "#3498DB",
 				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Enum Names",
+			"scope": [
+				"entity.name.type.enum",
+				"support.type.enum"
+			],
+			"settings": {
+				"foreground": "#20B2AA"
+			}
+		},
+		{
+			"name": "Enum Values",
+			"scope": [
+				"variable.other.enummember",
+				"constant.other.enum"
+			],
+			"settings": {
+				"foreground": "#D4A574"
 			}
 		}
 	]
