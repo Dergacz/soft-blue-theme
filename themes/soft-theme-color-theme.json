@@ -33,8 +33,8 @@
 		"tab.activeForeground": "#2C3E50",
 		"tab.inactiveBackground": "#E8F4F8",
 		"tab.inactiveForeground": "#5D6D7E",
-		"tab.border": "#D5DBDB",
-		"tab.activeBorder": "#3498DB",
+		"tab.border": "#00000000",
+		"tab.activeBorder": "#00000000",
 		
 		// Титульная строка
 		"titleBar.activeBackground": "#AED6F1",
@@ -163,7 +163,7 @@
 				"keyword.operator.decrement"
 			],
 			"settings": {
-				"foreground": "#2C3E50"
+				"foreground": "#708090"
 			}
 		},
 		{
@@ -187,7 +187,8 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#20B2AA"
+				"foreground": "#20B2AA",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -197,7 +198,8 @@
 				"meta.function.parameters variable.other"
 			],
 			"settings": {
-				"foreground": "#17A2B8"
+				"foreground": "#17A2B8",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -228,10 +230,11 @@
 			"name": "Object Properties",
 			"scope": [
 				"variable.other.property",
-				"variable.other.object.property"
+				"variable.other.object.property",
+				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#5D6D7E"
+				"foreground": "#B3D9FF"
 			}
 		},
 		{
@@ -341,7 +344,8 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#5DADE2"
+				"foreground": "#5DADE2",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -437,13 +441,116 @@
 			}
 		},
 		{
-			"name": "Enum Values",
+			"name": "Enum Values and Members",
 			"scope": [
 				"variable.other.enummember",
-				"constant.other.enum"
+				"constant.other.enum",
+				"variable.other.constant.property"
 			],
 			"settings": {
-				"foreground": "#D4A574"
+				"foreground": "#A0522D"
+			}
+		},
+		{
+			"name": "Type Annotations",
+			"scope": [
+				"entity.name.type",
+				"support.type",
+				"entity.name.type.class"
+			],
+			"settings": {
+				"foreground": "#228B22",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Decorators",
+			"scope": [
+				"meta.annotation variable.function",
+				"meta.annotation variable.annotation.function",
+				"meta.annotation punctuation.definition.annotation",
+				"meta.decorator",
+				"punctuation.decorator"
+			],
+			"settings": {
+				"foreground": "#CD853F",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python Magic Functions",
+			"scope": [
+				"support.function.magic.python"
+			],
+			"settings": {
+				"foreground": "#20B2AA",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python Self Parameter",
+			"scope": [
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.special.self.python"
+			],
+			"settings": {
+				"foreground": "#CD5C5C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python Function Decorators",
+			"scope": [
+				"entity.name.function.decorator.python",
+				"punctuation.definition.decorator.python"
+			],
+			"settings": {
+				"foreground": "#CD853F",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust Attributes",
+			"scope": [
+				"meta.annotation.rust",
+				"meta.annotation.rust punctuation",
+				"meta.attribute.rust",
+				"punctuation.definition.attribute.rust"
+			],
+			"settings": {
+				"foreground": "#5DADE2",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust Macros",
+			"scope": [
+				"support.macro.rust",
+				"meta.macro.rust support.function.rust",
+				"entity.name.function.macro.rust"
+			],
+			"settings": {
+				"foreground": "#20B2AA",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust Lifetimes",
+			"scope": [
+				"storage.modifier.lifetime.rust",
+				"entity.name.type.lifetime"
+			],
+			"settings": {
+				"foreground": "#4682B4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Julia Macros",
+			"scope": "support.function.macro.julia",
+			"settings": {
+				"foreground": "#20B2AA",
+				"fontStyle": "italic"
 			}
 		}
 	]

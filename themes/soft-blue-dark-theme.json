@@ -28,8 +28,8 @@
 		"tab.activeForeground": "#E8F4F8",
 		"tab.inactiveBackground": "#252B3D",
 		"tab.inactiveForeground": "#85929E",
-		"tab.border": "#2C3E50",
-		"tab.activeBorder": "#3498DB",
+		"tab.border": "#00000000",
+		"tab.activeBorder": "#00000000",
 		
 		"titleBar.activeBackground": "#1E2332",
 		"titleBar.activeForeground": "#AED6F1",
@@ -186,7 +186,8 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#30D5C8"
+				"foreground": "#30D5C8",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -196,7 +197,8 @@
 				"meta.function.parameters variable.other"
 			],
 			"settings": {
-				"foreground": "#85C1E9"
+				"foreground": "#85C1E9",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -208,7 +210,7 @@
 				"variable.language.self"
 			],
 			"settings": {
-				"foreground": "#FF8CCC",
+				"foreground": "#D6A8D1",
 				"fontStyle": "italic"
 			}
 		},
@@ -276,7 +278,8 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#85C1E9"
+				"foreground": "#85C1E9",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -385,7 +388,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#A8C8E1"
 			}
 		},
 		{
@@ -394,7 +397,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#A8C8E1"
 			}
 		},
 		{
@@ -407,7 +410,7 @@
 				"keyword.operator.comparison"
 			],
 			"settings": {
-				"foreground": "#FF7085"
+				"foreground": "#C7A6B5"
 			}
 		},
 		{
@@ -418,7 +421,7 @@
 				"keyword.control.loop"
 			],
 			"settings": {
-				"foreground": "#FF8CCC"
+				"foreground": "#D6A8D1"
 			}
 		},
 		{
@@ -429,7 +432,7 @@
 				"keyword.control.from"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#B8A3D1"
 			}
 		},
 		{
@@ -443,13 +446,25 @@
 			}
 		},
 		{
-			"name": "Enum Values",
+			"name": "Enum Values and Members",
 			"scope": [
 				"variable.other.enummember",
-				"constant.other.enum"
+				"constant.other.enum",
+				"variable.other.constant.property"
 			],
 			"settings": {
-				"foreground": "#FFEDA1"
+				"foreground": "#D6A3C7"
+			}
+		},
+		{
+			"name": "Enum Access - Object Part",
+			"scope": [
+				"variable.other.object",
+				"variable.other.readwrite",
+				"meta.object-literal.key"
+			],
+			"settings": {
+				"foreground": "#85C1E9"
 			}
 		},
 		{
@@ -460,7 +475,98 @@
 				"entity.name.type.class"
 			],
 			"settings": {
-				"foreground": "#42FFC2"
+				"foreground": "#9BD4C1",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Decorators",
+			"scope": [
+				"meta.annotation variable.function",
+				"meta.annotation variable.annotation.function",
+				"meta.annotation punctuation.definition.annotation",
+				"meta.decorator",
+				"punctuation.decorator"
+			],
+			"settings": {
+				"foreground": "#FFEDA1",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python Magic Functions",
+			"scope": [
+				"support.function.magic.python"
+			],
+			"settings": {
+				"foreground": "#30D5C8",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python Self Parameter",
+			"scope": [
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.special.self.python"
+			],
+			"settings": {
+				"foreground": "#D6A8D1",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python Function Decorators",
+			"scope": [
+				"entity.name.function.decorator.python",
+				"punctuation.definition.decorator.python"
+			],
+			"settings": {
+				"foreground": "#FFEDA1",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust Attributes",
+			"scope": [
+				"meta.annotation.rust",
+				"meta.annotation.rust punctuation",
+				"meta.attribute.rust",
+				"punctuation.definition.attribute.rust"
+			],
+			"settings": {
+				"foreground": "#85C1E9",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust Macros",
+			"scope": [
+				"support.macro.rust",
+				"meta.macro.rust support.function.rust",
+				"entity.name.function.macro.rust"
+			],
+			"settings": {
+				"foreground": "#30D5C8",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust Lifetimes",
+			"scope": [
+				"storage.modifier.lifetime.rust",
+				"entity.name.type.lifetime"
+			],
+			"settings": {
+				"foreground": "#A8C8E1",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Julia Macros",
+			"scope": "support.function.macro.julia",
+			"settings": {
+				"foreground": "#30D5C8",
+				"fontStyle": "italic"
 			}
 		}
 	]
