@@ -2,6 +2,22 @@
 
 All notable changes to the "Soft Blue Theme" extension will be documented in this file.
 
+## [1.0.6] - 2025-08-11
+
+### Variable Visibility Improvements
+- **Dark Theme Variables**: Enhanced variable readability with brighter, more white tones
+  - General variables: #B3D9FF → #E1F0FF (more white-tinted)
+  - Function parameters: #85C1E9 → #D4E9FF (brighter blue-white)
+  - Object variables: #B8D5E1 → #E8F4F9 (very light blue-white)
+- Better contrast and readability for variable identification
+
+### Tab Navigation Enhancement
+- **Active Tab Indicators**: Enhanced visual distinction for open tabs
+  - Dark theme: Lighter background (#2A3548) with top border only (#85C1E9)
+  - Light theme: Pure white background (#FFFFFF) with top border only (#3498DB)
+- **Cleaner Design**: Removed bottom borders for cleaner appearance
+- Improved navigation experience and current file identification
+
 ## [1.0.5] - 2025-08-08
 
 ### Color Palette Enhancement

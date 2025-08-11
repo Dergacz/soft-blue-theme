@@ -24,12 +24,13 @@
 		"statusBar.noFolderBackground": "#AED6F1",
 		"statusBar.debuggingBackground": "#5DADE2",
 		
-		"tab.activeBackground": "#F0F6FB",
+		"tab.activeBackground": "#FFFFFF",
 		"tab.activeForeground": "#2C3E50",
 		"tab.inactiveBackground": "#E8F4F8",
 		"tab.inactiveForeground": "#5D6D7E",
 		"tab.border": "#00000000",
 		"tab.activeBorder": "#00000000",
+		"tab.activeBorderTop": "#3498DB",
 		
 		"titleBar.activeBackground": "#AED6F1",
 		"titleBar.activeForeground": "#1B4F72",
