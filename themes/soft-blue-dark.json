@@ -24,12 +24,13 @@
 		"statusBar.noFolderBackground": "#34495E",
 		"statusBar.debuggingBackground": "#2980B9",
 		
-		"tab.activeBackground": "#242B3D",
+		"tab.activeBackground": "#2A3548",
 		"tab.activeForeground": "#E8F4F8",
 		"tab.inactiveBackground": "#252B3D",
 		"tab.inactiveForeground": "#85929E",
 		"tab.border": "#00000000",
 		"tab.activeBorder": "#00000000",
+		"tab.activeBorderTop": "#85C1E9",
 		
 		"titleBar.activeBackground": "#1E2332",
 		"titleBar.activeForeground": "#AED6F1",
@@ -115,7 +116,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#B3D9FF"
+				"foreground": "#E1F0FF"
 			}
 		},
 		{
@@ -197,7 +198,7 @@
 				"meta.function.parameters variable.other"
 			],
 			"settings": {
-				"foreground": "#85C1E9",
+				"foreground": "#D4E9FF",
 				"fontStyle": "italic"
 			}
 		},
@@ -465,7 +466,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#B8D5E1"
+				"foreground": "#E8F4F9"
 			}
 		},
 		{
