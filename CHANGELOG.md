@@ -2,6 +2,48 @@
 
 All notable changes to the "Soft Blue Theme" extension will be documented in this file.
 
+## [1.0.7] - 2025-09-11
+
+### Major Release: Three Theme Variants 🎨
+
+#### New Theme Addition
+- **Soft Blue Dark Deep**: Brand new deep contrast theme with enhanced visual elements
+  - Darker background (#1A1F2E) for reduced eye strain in low-light environments
+  - Enhanced contrast and readability
+  - Modern color palette with sophisticated accents
+
+#### Color Palette Innovations
+- **Tiffany Blue Integration**: Added elegant tiffany blue accents throughout Deep theme
+  - Functions: #81D4E6 (soft tiffany)
+  - Cursor: #0ABAB5 (classic tiffany)
+  - Tab borders: #0ABAB5 (classic tiffany)
+  - Attributes: #A6E4E7 (light tiffany)
+  - Active selections: #0ABAB540 (tiffany with transparency)
+
+#### Enhanced Deep Theme Features
+- **Sophisticated Color Mix**: Balanced palette with premium feel
+  - Keywords: #7FB8E5 (refined light blue)
+  - Decorators: #FF7F7F (soft coral)
+  - Type annotations: #C8A8E8 (elegant purple)
+  - Enum values: #F4D03F (golden accent)
+- **Reduced Purple Dominance**: Balanced fuchsia/purple usage for better harmony
+- **Background Enhancements**: Deeper, more professional dark background
+- **Sidebar Improvements**: Enhanced visual separation with darker sidebar (#151925) in Deep theme
+
+#### Theme Structure Update
+- **Three Complete Themes**: 
+  - **Soft Blue Light**: Original light theme (unchanged)
+  - **Soft Blue Dark**: Classic dark theme (restored to original settings)
+  - **Soft Blue Dark Deep**: New enhanced dark theme with modern features
+- Updated package description to reflect three-theme structure
+
+### Technical Improvements
+- Better theme organization and file structure
+- Enhanced color accessibility and contrast ratios
+- Improved syntax highlighting coverage
+
+---
+
 ## [1.0.6] - 2025-08-11
 
 ### Variable Visibility Improvements
