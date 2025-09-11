@@ -1,8 +1,8 @@
 {
   "name": "soft-blue-theme",
   "displayName": "Soft Blue Theme",
-  "description": "A beautiful and calm VS Code theme with gentle teal and blue colors, perfect for comfortable coding. Features rich syntax highlighting in both light and dark versions.",
-  "version": "1.0.6",
+  "description": "A beautiful and calm VS Code theme with gentle teal and blue colors, perfect for comfortable coding. Features rich syntax highlighting in light, dark, and deep dark versions.",
+  "version": "1.0.7",
   "publisher": "StanislauDziarhach",
   "author": {
     "name": "Stabislau Dziarhach"
@@ -45,6 +45,11 @@
         "label": "Soft Blue Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/soft-blue-dark.json"
+      },
+      {
+        "label": "Soft Blue Dark Deep",
+        "uiTheme": "vs-dark",
+        "path": "./themes/soft-blue-dark-deep.json"
       }
     ]
   }
