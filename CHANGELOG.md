@@ -2,6 +2,19 @@
 
 All notable changes to the "Soft Blue Theme" extension will be documented in this file.
 
+## [1.0.8] - 2026-06-05
+
+### Changed
+- Darkened the integrated terminal background across all three theme variants so the terminal is visually separated from the editor workspace.
+- Updated `terminal.background` only, preserving terminal foreground colors, ANSI colors, panel backgrounds, and panel borders.
+
+### Theme Updates
+- **Soft Blue Light**: `terminal.background` changed from `#EEFAFF` to `#DDEFF8`.
+- **Soft Blue Dark**: `terminal.background` changed from `#242B3D` to `#202638`.
+- **Soft Blue Dark Deep**: `terminal.background` changed from `#1A1F2E` to `#151925`.
+
+---
+
 ## [1.0.7] - 2025-09-11
 
 ### Major Release: Three Theme Variants 🎨
