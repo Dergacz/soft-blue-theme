@@ -5,6 +5,7 @@ test/**
 .gitignore
 .github/**
 .copilot-instructions.md
+AGENTS.md
 test-syntax.js
 vsc-extension-quickstart.md
 USAGE.md
