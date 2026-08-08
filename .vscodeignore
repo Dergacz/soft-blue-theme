@@ -6,7 +6,9 @@ test/**
 .github/**
 .copilot-instructions.md
 AGENTS.md
-test-syntax.js
+test-*.js
+test-*.ts
+test-*.py
 vsc-extension-quickstart.md
 USAGE.md
 PUBLISHING.md
