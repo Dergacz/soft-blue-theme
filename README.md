@@ -4,7 +4,7 @@
 ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/StanislauDziarhach.soft-blue-theme)
 ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/StanislauDziarhach.soft-blue-theme)
 
-A beautiful and calm theme collection for Visual Studio Code with gentle teal and blue colors, designed for comfortable coding. Now featuring **three distinct variants** to suit every preference and environment.
+A beautiful and calm theme collection for Visual Studio Code with gentle teal and blue colors, designed for comfortable coding. Now featuring **four distinct variants** to suit every preference and environment.
 
 ## 🎨 Theme Variants
 
@@ -20,13 +20,21 @@ The classic dark theme with balanced colors and comfortable contrast.
 - Perfect balance of readability and eye comfort
 - Ideal for standard low-light coding
 
-### 🌌 Soft Blue Dark Deep ✨ NEW!
+### 🌌 Soft Blue Dark Deep
 Enhanced deep contrast theme with sophisticated modern accents.
 - **Deeper background** (#1A1F2E) for maximum eye comfort
 - **Darker sidebar** (#151925) for better visual separation
 - **Tiffany blue highlights** for elegant function and cursor styling
 - **Premium color palette** with coral, golden, and purple accents
 - **Enhanced contrast** for professional development environments
+
+### 🌑 Soft Blue Night ✨ NEW!
+Rich black variant for late-night sessions and dark rooms — the darkest of the collection.
+- **Rich black background** (#0F1115) — neutral, with no colour cast
+- **Deepest sidebar and activity bar** (#0B0D10 / #08090C) for maximum separation
+- **OLED-friendly** — a true dark base that saves power on OLED displays
+- **Muted chrome** — non-glowing status bar and borders, no bright bands
+- Same tiffany blue accents and syntax palette as Dark Deep
 
 ## 📸 Screenshots
 
@@ -36,12 +44,15 @@ Enhanced deep contrast theme with sophisticated modern accents.
 ### 🌙 Soft Blue Dark
 ![Dark Theme Screenshot](./images/dark-screen.png)
 
-### 🌌 Soft Blue Dark Deep ✨
+### 🌌 Soft Blue Dark Deep
 ![Dark Deep Theme Screenshot](./images/dark-screen-deep.png)
+
+### 🌑 Soft Blue Night ✨
+![Night Theme Screenshot](./images/dark-screen-night.png)
 
 ## ✨ Features
 
-- **🎨 Three beautiful variants** - light, dark, and deep dark themes
+- **🎨 Four beautiful variants** - light, dark, deep dark, and near-black night themes
 - **💎 Tiffany blue accents** - elegant highlights in Deep theme
 - **🎯 Enhanced visual separation** - darker sidebar in Deep theme for better organization
 - **👁️ Soft transitions** - no harsh colors or high-contrast combinations  
@@ -63,6 +74,14 @@ Enhanced deep contrast theme with sophisticated modern accents.
 - **Enum Values**: `#F4D03F` - golden accent
 - **Strings**: `#30D5C8` - bright cyan-green
 
+### Night Theme Highlights:
+- **Editor Background**: `#0F1115` - rich neutral black
+- **Sidebar Background**: `#0B0D10` - deepest separation
+- **Activity Bar**: `#08090C` - darkest surface in the collection
+- **Status Bar**: `#181B22` - muted, non-glowing
+- **Borders**: `#23262E` - subtle separators that don't glare
+- Syntax palette identical to Dark Deep
+
 ### Classic Themes:
 - **Strings**: `#FFEDA1` - soft yellow
 - **Functions**: `#30D5C8` - bright teal
@@ -80,6 +99,7 @@ Enhanced deep contrast theme with sophisticated modern accents.
    - **Soft Blue Light** - for bright environments
    - **Soft Blue Dark** - classic dark theme  
    - **Soft Blue Dark Deep** - enhanced deep contrast
+   - **Soft Blue Night** - near-black, OLED-friendly
 
 ## 🔧 Development
 

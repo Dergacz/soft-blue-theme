@@ -2,6 +2,31 @@
 
 All notable changes to the "Soft Blue Theme" extension will be documented in this file.
 
+## [1.0.9] - 2026-08-08
+
+### New Theme Addition 🌑
+
+#### Soft Blue Night
+- Brand new rich black variant for late-night sessions and dark rooms — the darkest of the four
+  - Editor background: #0F1115 (neutral black with no colour cast)
+  - Sidebar: #0B0D10, Activity Bar: #08090C, Terminal: #0B0D10
+  - OLED-friendly, and softened just enough above pure black to avoid the "void" effect
+  - Muted status bar (#181B22) and borders (#23262E) to avoid glare on the black base
+  - Brightened muted foregrounds (line numbers #6B7C8E, inactive icons #667788) to keep contrast comfortable
+- Syntax highlighting (`tokenColors`) identical to Soft Blue Dark Deep — the variants differ only in UI chrome
+- Added panel, editor widget, suggest widget, hover, menu, and breadcrumb colors (previously falling back to VS Code defaults) so popups and panels match the near-black base
+
+### Changed
+- Extension now ships **four** variants: Light, Dark, Dark Deep, Night
+- Updated package description, keywords, and README to reflect the four-theme structure
+- Added a Night screenshot (`images/dark-screen-night.png`) to the README gallery
+
+### Packaging
+- Excluded the remaining syntax sample files (`test-*.ts`, `test-*.py`) from the published package — previously only `test-syntax.js` was ignored, so the TypeScript and Python samples shipped to users
+- Removed the unused, empty `icon.svg` (the Marketplace icon is `icon.png`)
+
+---
+
 ## [1.0.8] - 2026-06-05
 
 ### Changed
