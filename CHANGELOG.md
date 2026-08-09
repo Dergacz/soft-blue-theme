@@ -2,6 +2,14 @@
 
 All notable changes to the "Soft Blue Theme" extension will be documented in this file.
 
+## [1.0.10] - 2026-08-09
+
+### Changed
+- Added the Soft Blue Night screenshot (`images/dark-screen-night.png`) to the packaged release assets.
+- Updated the extension package version for the screenshot refresh build.
+
+---
+
 ## [1.0.9] - 2026-08-08
 
 ### New Theme Addition 🌑
